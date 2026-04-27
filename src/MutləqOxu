@@ -1,3 +1,26 @@
 "Bu layihəyə ciddi yanaşmağınızı istəyirəm.
 Biz uzun yol qət etmişik və sona çox az qalıb."
+
 Hərəmiz öz papkaya java fayları əlavə eləsin.
+
+Intelijde file -> New -> Project from Version Control -> URL githubdan goturub daxil et -> Clone
+Branch ilə işləmə qaydası
+
+Hər kəs layihə üzərində işləməyə başlayanda IntelliJ-də master branch-dən yeni branch
+yaratmalıdır (New Branch from 'master').
+İş zamanı etdiyiniz dəyişiklikləri mütəmadi olaraq commit edin.,
+İşinizi tamamladıqdan sonra Create Pull Request edin.,
+Pull Request yaratdıqdan sonra team lead-ə xəbər verin ki, dəyişiklikləri yoxlayıb təsdiqləsin.,
+Team lead PR-i təsdiqlədikdən sonra sizin branch layihəyə merge olunmuş sayılır. Və sizin
+yaratdığınız branch’ı GitHubdan silir.
+Daha sonra:
+Öz lokal mühitinizdə master branch-ə keçin
+Layihəni update edin
+İstifadə etdiyiniz branch-i silin,
+,
+
+Vacib:
+    Komandada başqa üzvlər də dəyişiklik etdiyi üçün layihəni tez-tez update etməlisiniz.
+    Xüsusilə, hər hansı Pull Request təsdiqlənib master-a merge olunduqdan sonra siz də
+    master branch-ə
+    keçib layihəni yeniləməlisiniz.
