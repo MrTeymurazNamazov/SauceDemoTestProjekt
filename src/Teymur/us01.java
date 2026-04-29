@@ -30,7 +30,9 @@ public class us01 extends BaseDriver {
         String actualUrl = driver.getCurrentUrl();
 
         Assert.assertEquals(expectedUrl, actualUrl);
-  }
+        MyFunc.wait(2);
+        gozleBagla();
+    }
 
 }
 
