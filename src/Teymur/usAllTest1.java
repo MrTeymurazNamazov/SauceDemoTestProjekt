@@ -63,9 +63,7 @@ public class usAllTest1 extends BaseDriver {
         System.out.println("Əvvəlki səhifəyə qayıtdı");
 
         driver.navigate().forward();
-        String expectedUrl4 = "https://www.saucedemo.com/checkout-step-one.html";
-        String actualUrl4 = driver.getCurrentUrl();
-        Assert.assertEquals(expectedUrl4, actualUrl4);
+        Assert.assertEquals("https://www.saucedemo.com/checkout-step-one.html",driver.getCurrentUrl());
         MyFunc.wait(2);
         System.out.println("irəlidəki səhifəyə getdi");
 
